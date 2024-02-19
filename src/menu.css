@@ -1,0 +1,159 @@
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .category-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-filter button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;;
+    cursor: pointer;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative; 
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    width: 200px; 
+    height: 350px; 
+
+    transition: transform 0.3s ease;  
+  }
+
+  .menu-item:hover {
+     transform: scale(1.05); 
+  }
+
+  .menu-item p {
+    margin-bottom: auto; /* Push button to the bottom */
+  }
+
+  .menu-item1 {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .container-fluid
+  {
+    cursor: pointer;
+        
+  }
+
+  .container-fluid:hover {
+    color:orangered;
+  }
+  
+  .navbar-brand
+  {
+   color: orangered;
+  }
+
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .modal-content img {
+    /* width: 100%;
+    height: auto;
+    border-radius: 5px; */
+    width: 300px;
+    height: 250px;
+   
+  }
+
+  .modal-content img:hover {
+    /* width: 900px;
+    height: auto;  */
+    transition: transform 0.3s ease;  
+    transform: scale(2.05); 
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .cart{
+   /* background-color: orangered;
+   color:#fff ; */
+    background-color: orangered;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+   padding: 10px 20px; 
+    border: none;
+  cursor: pointer;
+  outline: none;  
+  align-self: flex-end;
+  }
+
+  
+.cart:hover {
+  background-color: #0056b3;
+}
+
+  .image
+  {
+    width:50px;
+    height: 50px;
+  }
+
+  body{
+     /* background-color: rgb(241, 143, 186);  */
+     background-color: #e9ecef;
+  }
